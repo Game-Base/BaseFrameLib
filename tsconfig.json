@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+        "target": "es5",
+        "declaration": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise",
+            "es2015.collection"
+        ],
+        "types": [],
+        "outFile":"bin/lib-login/login.js"
+	},
+	"include": [
+		"src",
+		"libs",
+		"protobuf-login/library",
+		"protobuf-login/bundles"
+	]
+}
